@@ -321,7 +321,7 @@ transform: scale(1.2);
   padding: 20px;
 }
 
-
+/* Footer Section */
 .footer{
   width: 100%;
   background-color: #FFF4E7;
@@ -338,7 +338,7 @@ body{
 
 
 
-/* Nav Meadia query Breakpoint */
+/*  Meadia query Breakpoint only for Nav Bar */
 @media (max-width: 415px){
   label.logo{
     font-size: 100px;
@@ -397,7 +397,7 @@ body{
   img{
     width:80%;
   }
-
+/*  Meadia query Header Section */
   .header_Nav{
     width: 100vw !important;
   }
