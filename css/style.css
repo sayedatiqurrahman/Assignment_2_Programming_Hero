@@ -1,0 +1,518 @@
+/* ================
+-------Fonts-------
+=================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* =================
+<-------Fonts------->
+=================== */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  img{
+    width:100%;
+  }
+/* =================
+<-------Nav & Nav Section------->
+=================== */
+.header_Nav{
+    background: rgba(255, 144, 14, 0.1);
+    width: 100vw;
+}
+/* <!-- =====================
+---Nav Bar ta kinto rasponsive only html css
+     , youtube theke shikhlam ajke------   
+    ========================--> */
+  nav{
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: #000;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color:#000;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+  .checkbtn{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.623);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+
+/* =================
+<-------Header Code------->
+=================== */
+.header{
+    text-align: center !important;
+}
+.section_title{
+    font-size: 4rem;
+}
+.section_des{
+    color: #727272;
+    margin: 32px auto;
+}
+.btn_primary{
+    height: 64px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #FF900E;
+    padding: 0px 25px;
+    border: 0;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.header_banner{
+    width: 80%;
+    margin: 0 auto;
+}
+/* =================-=============
+<-------Main Section Style------->
+=================== */
+main{
+    margin-top: 85px;
+}
+
+/* =================-=============
+<-------Feature Section Style------->
+=================== */
+
+.feature{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 0%;
+    gap: 70px;
+}
+
+.feature_pics{
+    width: 50%;
+    height: 0%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:24px;
+    grid-row-gap:24px;
+}
+.featur_detail{
+    width: 50%;
+}
+
+
+.feature_title{
+    font-size: 4rem;
+}
+.feature_title .fea_gray{
+    color: #727272;
+}
+.feature_title .fea_orn{
+    color: #FF900E;
+}
+.feature_des{
+    color: #727272;
+    margin: 24px 0px 32px;
+}
+
+/* <!-- =======================
+--Favourit Feature Section Styles---- 
+========================--> */
+
+.Fav_features{
+  padding-top: 130px;
+  height: 0%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 54px;
+}
+.fav_details{
+  width: 50%;
+}
+.fav_title{
+  font-size: 3rem;
+  border-left: 5px solid #FF900E;
+  padding-left: 21px;
+}
+.fav_pic{
+  width: 50%;
+}
+.fav_card{
+  padding: 30px 30px 20px;
+  width: 95%;
+  height: 171px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 30px 0px #0000000F;
+  overflow: hidden;
+}
+.btn_sec{
+  height: 200px;
+  font-size: 25px;
+  padding: 0px 42px;
+  position: relative;
+  top: -77px;
+  left: -46px;
+
+}
+.btn_sec h1{
+  font-size: 4rem;
+}
+
+
+
+/* <!-- =======================
+-----Facts Section styles------ 
+========================--> */
+
+
+.facts{
+  width: 70%;
+  height: 0%;/* I cant inspect the problem this value is correct my problem */
+  margin: 0 auto;
+ } 
+ .head_detail{
+  width: 50%;
+ }
+ .facts_title{
+  font-size: 4rem;
+ }
+ .facts_cards{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:24px;
+  grid-row-gap: 24px;
+  justify-content: space-around;
+  align-items: center;
+ 
+ }
+ .fact_card{
+  overflow: hidden;
+  width: 241px;
+  height: 241px;
+  background-color: #fff;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+ }
+ .fact_card:hover{
+  overflow: hidden;
+  transform:scale(1.3);
+ }
+ .fact_card .thum{
+  width: 20% !important; 
+ }
+ .fact_card .thum img{
+  width: 45px;
+  height: 45px;
+  
+ }
+
+ /* <!-- =======================
+    -----Sponsor Section------ 
+    ========================--> */
+
+    .sponsors{
+      padding-top: 130px;
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+.s_companys{
+  padding-top: 80px;
+  display: flex;
+  gap:50px;
+  filter: grayscale();
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.company img{
+  width: 150px;
+}
+.company{
+  transition: .6s; 
+}
+.company:hover{
+  position: relative;
+  top: -15px;
+  transform: scale(1.3);
+}
+
+/* <!-- =============================================
+    -----Services "Extra" Section Design / style------ 
+    ============================================--> */
+
+
+.services{
+  padding-top: 130px;
+  width: 80%;
+  margin: 0 auto;
+  text-align:center ;
+}
+
+.service_card{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+.card{
+  border-radius:10px ;
+  margin-top: 80px;
+  background-color:#fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.top{
+  place-items: center;
+  width: 95%;
+  height:400px;
+}
+.top:hove{
+transform: scale(1.2);
+}
+.top img{
+  width:100%;
+  height: 100%;
+  position: relative;
+}
+.bottom{
+  text-align: left;
+  padding: 20px;
+}
+
+
+.footer{
+  width: 100%;
+  background-color: #FFF4E7;
+  text-align: center;
+  height: 100px;
+  margin-top: 130px;
+  padding-top: 5px;
+}
+
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+/* Nav Meadia query Breakpoint */
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      line-height: normal;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+        color: #fff;
+      font-size: 20px;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+ 
+
+  /*=====================================
+ --Standard Boostrap breakpoints For All--
+  ========================================= */
+
+  /* Mobile Breakpoint */
+ @media only screen and (max-width:576px) {
+  img{
+    width:80%;
+  }
+
+  .header_Nav{
+    width: 100vw !important;
+  }
+  .header_banner{
+    width: 100vw;
+  }
+
+    /* Feature 1st Lavel */
+    .feature {
+        flex-direction: column;
+    }
+    .feature_pics{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .feature_pics img{
+      width:100%;
+    }
+    .featur_detail{
+        width: 100%;
+    }
+
+/* <!-- =====================
+        ---Fav Feature Section------   
+    ========================--> */
+
+    .Fav_features {
+      flex-direction: column;
+  }
+  .fav_details{
+    width: 100%;
+  }
+  .fav_cards{}
+  .fav_pic{
+    width: 100%;
+  }
+
+  .btn_sec{
+    font-size: 1rem;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    top: -77px;
+    left: 50%;
+    transform: translateX(-50%);
+  } 
+    .btn_sec h1{
+      font-size: 2rem;
+    }
+
+
+    /* <!-- =======================
+    -----Sponsor Section------ 
+    ========================-->*/
+
+
+    .s_companys{
+      justify-content: center;
+    } 
+
+    
+    /* <!-- =======================
+    -----service_card Section------ 
+    ========================-->*/
+
+.service_card{
+  grid-template-columns: repeat(1,1fr);
+}
+    
+
+
+  }
+
+  /* Tablet Breakpoints */
+  @media only screen and (min-width:577px) and (max-width:992px){
+
+    
+   /* <!-- =======================
+    -----Feature Section------ 
+    ========================-->*/
+    .feature {
+      flex-direction: column;
+  }
+  .feature_pics{
+      width: 100%;
+  }
+  .featur_detail{
+      width: 100%;
+  }
+
+
+   /* <!-- =======================
+    -----Fav Seature Section------ 
+    ========================-->*/
+
+
+  .Fav_features {
+    flex-direction: column;
+}
+.fav_details{
+  width: 100%;
+}
+.fav_cards{}
+.fav_pic{
+  width: 100%;
+}
+.btn_sec{
+  text-align: center;
+  width: 70%;
+  position: relative;
+  top: -77px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+
+   /* <!-- =======================
+    -----service_card Section------ 
+    ========================-->*/
+
+    .service_card{
+      grid-template-columns: repeat(2,1fr);
+    }
+       
+    
+
+  }
