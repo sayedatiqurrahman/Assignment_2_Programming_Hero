@@ -96,6 +96,12 @@
     border: 0;
     margin-bottom: 50px;
     border-radius: 5px;
+    transition: .6s;
+}
+.btn_primary:hover{
+  background-color: #fff;
+  border: 2px solid #FF900E;
+  color: #FF900E;
 }
 .header_banner{
     width: 80%;
@@ -136,18 +142,26 @@ main{
 
 .feature_title{
     font-size: 4rem;
+    
 }
 .feature_title .fea_gray{
     color: #727272;
+    transition: 1s;
 }
 .feature_title .fea_orn{
     color: #FF900E;
+    transition: .5s;
 }
 .feature_des{
     color: #727272;
     margin: 24px 0px 32px;
 }
-
+.feature_title:hover .fea_gray{
+  color: #FF900E;
+}
+.feature_title:hover .fea_orn{
+  color: #727272;
+}
 /* <!-- =======================
 --Favourit Feature Section Styles---- 
 ========================--> */
@@ -179,6 +193,11 @@ main{
   background-color: #fff;
   box-shadow: 0px 4px 30px 0px #0000000F;
   overflow: hidden;
+  transition: .5s;
+}
+.fav_card:hover{
+  transform: scale(1.2);
+  z-index: 10;
 }
 .btn_sec{
   height: 200px;
@@ -187,7 +206,10 @@ main{
   position: relative;
   top: -77px;
   left: -46px;
-
+  transition: .5s;
+}
+.btn_sec:hover{
+  transform: scale(1.2);
 }
 .btn_sec h1{
   font-size: 4rem;
@@ -302,6 +324,12 @@ main{
   margin-top: 80px;
   background-color:#fff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: .7s;
+}
+.card:hover{
+  transform: translateY(-50px);
+  background-color: #ebf0fc;
+  z-index: 10;
 }
 .top{
   place-items: center;
@@ -432,7 +460,6 @@ body{
   .fav_details{
     width: 100%;
   }
-  .fav_cards{}
   .fav_pic{
     width: 100%;
   }
@@ -502,7 +529,6 @@ body{
 .fav_details{
   width: 100%;
 }
-.fav_cards{}
 .fav_pic{
   width: 100%;
 }
