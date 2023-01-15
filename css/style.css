@@ -85,6 +85,7 @@
 .section_des{
     color: #727272;
     margin: 32px auto;
+    width: 95%;
 }
 .btn_primary{
     height: 64px;
