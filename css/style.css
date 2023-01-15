@@ -238,7 +238,8 @@ main{
  .fact_card:hover{
   overflow: hidden;
   transform:scale(1.3);
- }
+  z-index: 10;
+}
  .fact_card .thum{
   width: 20% !important; 
  }
