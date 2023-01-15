@@ -337,10 +337,20 @@ body{
 
 
 /* Nav Meadia query Breakpoint */
+@media (max-width: 415px){
+  label.logo{
+    font-size: 100px;
+    line-height: normal;
+    position: relative;
+    top: 10px;
+    left: 10px;
+   
+  }
+}
+
   @media (max-width: 952px){
     label.logo{
       font-size: 30px;
-      line-height: normal;
       padding-left: 50px;
     }
     nav ul li a{
